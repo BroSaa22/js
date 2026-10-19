@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Проверка</h1>
+    <form id="greetForm">
+        <div>
+            <label for="nameInput">Введите имя: </label>
+            <input type="text" id="nameInput" name="nameInput" placeholder="Например, Иван">
+        </div>
+        <div>
+            <label for="ageInput">Ваш возраст: </label>
+            <input type="text" id="ageInput" name="age" placeholder="Например, 20">
+        </div>
+        <button type="submit">Проверить</button>
+    </form>
+    <div id="errorBox" class="error"></div>
+    <div id="resultBox" class="result" hidden></div>
+    <script src="func.js"></script>
+</body>
+</html>
