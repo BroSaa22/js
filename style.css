@@ -1,4 +1,22 @@
+h1 {
+    font-size: 36px;
+    text-align: left;
+    color: aquamarine;
+    background-color: rgb(121, 176, 224);
+}
 button[type="submit"]{
+    background-color: aquamarine;
+    color: blue;
+}
+h3 {
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+#colorist {
     background-color: aquamarine;
     color: blue;
 }
